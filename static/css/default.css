@@ -1,0 +1,142 @@
+/* Message boxes
+---------------------------------------------------- */
+.message {
+	border: 1px solid;
+	padding: 10px;
+	background-repeat: no-repeat;
+	background-position: 16px center;
+	margin-bottom: 1.5em;
+}
+.info {
+	border-color: #ccc;
+	background-color: #f3f3f3;
+}
+.success {
+	color: #7c8f30;
+	border-color: #9fb84d;
+	background-color: #f1f5dc;
+}
+.warning {
+	color: #c48b18;
+	border-color: #d3a445;
+	background-color: #fdf9d7;
+}
+.error {
+	color: #d73531;
+	background-color: #f8d5d3;
+}
+.message ul {
+	margin: -1.5em 0 0 1.5em;
+	font-style: italic;
+}
+
+/* Buttons
+---------------------------------------------------- */
+.button,
+.button:visited {
+    display: inline-block;
+    border: 1px solid;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 2px 10px 3px;
+	margin: -2px 0 -3px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background-color: #dfeeff;
+    border-top-color: #afd1f9;
+    border-left-color: #afd1f9;
+    border-bottom-color: #4f90dd;
+    border-right-color: #4f90dd;
+}
+.button:focus,
+.button:hover {
+    border-top-color: #4f90dd;
+    border-left-color: #4f90dd;
+    border-bottom-color: #afd1f9;
+    border-right-color: #afd1f9;
+}
+.logout,
+.logout:visited {
+    background-color: #f5f5f5;
+    border-top-color: #ccc;
+    border-left-color: #ccc;
+	border-bottom-color: #666;
+	border-right-color: #666;
+    color: #666;
+	position: absolute;
+	top: -1px;
+	right: 0;
+}
+.logout:focus,
+.logout:hover {
+    border-top-color: #666;
+    border-left-color: #666;
+	border-bottom-color: #ccc;
+	border-right-color: #ccc;
+    color: #000;
+}
+.draw,
+.draw:visited {
+    border-top-color: #9fb84d;
+    border-left-color: #9fb84d;
+	border-bottom-color: #63751a;
+	border-right-color: #63751a;
+	background-color: #f1f5dc;
+	color: #7c8f30;
+	position: absolute;
+	top: -1px;
+	left: 0;
+	padding-top: 4px;
+}
+.draw:focus,
+.draw:hover {
+    border-top-color: #63751a;
+    border-left-color: #63751a;
+	border-bottom-color: #9fb84d;
+	border-right-color: #9fb84d;
+    color: #435300;
+}
+.trash {
+	float: right;
+}
+
+/* Misc
+---------------------------------------------------- */
+body {
+	position: relative;
+	padding-top: 3em;
+}
+.page-heading {
+	width: 80%;
+}
+.edit {
+	font-size: 90%;
+}
+.wishlists th {
+	border-bottom-width: 2px;
+}
+.wishlists td {
+	padding-top: .75em;
+	padding-bottom: .75em;
+}
+.wishlists .last-child {
+	border-top: 1px solid #ccc;
+	border-bottom: none;
+	padding-left: 0;
+}
+.example {
+	font-size: 90%;
+	display: block;
+	margin-top: .75em;
+}
+.legal {
+	font-size: 90%;
+}
+.invites td,
+.invites th {
+	border: 0;
+}
+.invites input {
+	width: 100%;
+}
