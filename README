@@ -1,0 +1,12 @@
+
+Lootjestrekmachine
+------------------
+
+Aanmaken tabellen in database
+Voor het aanmaken van de tabellen in je database dien je het script in tables.sql te draaien in PHPmyAdmin.
+
+Gegevens invoeren in funtions.php
+Vul in functions.php je gegevens in: username, password, host, dbname, je e-mailadres en de url naar je eigen lootjestrekmachine.
+
+Uploaden
+Upload alles naar je eigen server.
